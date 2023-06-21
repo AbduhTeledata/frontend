@@ -18,7 +18,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router basename={process.env.PUBLI_URL}>
+      <Router basename={process.env.REACT_APP_PUBLI_URL}>
         <App />
       </Router>
     </Provider>
