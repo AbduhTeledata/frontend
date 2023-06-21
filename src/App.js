@@ -19,7 +19,7 @@ function App() {
     <div>
         <BrowserRouter>
           <main>
-            <Routes>
+            <Routes basename={process.env.REACT_APP_URI}>
               <Route path='/' element={<LandingPage />}/>
               <Route path='/login' element={<Login />}/>
               <Route path='/dashboard' element={<Dashboard />}/>

@@ -4,11 +4,11 @@ import { numberWithCommas } from "../utils/utils";
 export const ComponentToPrint = React.forwardRef((props, ref) => {
     const {cart, totalHarga} = props;
     return (
-      <div ref={ref} className="p-5 isiStruk kanan">
-          <table className='table'>
+      <div ref={ref} className="p-5">
+          <table className='table isiStruk kanan'>
                   <thead>
                     <tr>
-                      <td>#</td>
+                      <td>No</td>
                       <td>Name</td>
                       <td>Harga</td>
                       <td>Qty</td>
