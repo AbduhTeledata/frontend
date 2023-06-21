@@ -17,9 +17,9 @@ import Reports from './pages/Reports';
 function App() {
   return (
     <div>
-        <BrowserRouter>
+        <BrowserRouter basename="/frontend">
           <main>
-            <Routes basename={process.env.REACT_APP_URI}>
+            <Routes>
               <Route path='/' element={<LandingPage />}/>
               <Route path='/login' element={<Login />}/>
               <Route path='/dashboard' element={<Dashboard />}/>
