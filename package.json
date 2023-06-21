@@ -1,7 +1,7 @@
 {
-  "name": "teledata-salon-frontend",
+  "name": "kyoshi-salon-frontend",
   "version": "0.1.0",
-  "homepage": "https://abduhteledata.github.io/frontend",
+  "homepage": "https://abduhteledata.github.io/kyoshi-salon",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "frontend -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
