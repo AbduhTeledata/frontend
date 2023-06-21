@@ -6,6 +6,7 @@ import App from './App';
 import "bulma/css/bulma.css";
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { HashRouter } from "react-router-dom";
 
 axios.defaults.withCredentials = true;
 
