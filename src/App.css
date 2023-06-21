@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: #22668A;
+}
+
+.category-aktif {
+  background-color: #22668A;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #22668A;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 650px;
+  }
+  
+  .menu {
+    height: 800px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.animated[role="alert"] {
+  margin-top: 5%;
+  position: fixed;
+  z-index: 150;
+  width: 100%;
+}
+
+.logo{
+    margin-top: -15px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0
+  }
+
+p{
+  font-size: 9px;
+  text-align: center;
+  margin-top:2px;
+}
+  
+.isiStruk{
+  font-size:9px;
+}
+.kanan{
+  margin-left:50px;
+}
+.kanan1{
+  margin-left:73px;
+}
+
+.kanan2{
+  margin-left:43px;
+}
+
+.kanan3{
+  margin-left:21px;
+}
+
+.kanan5{
+  margin-left:53px;
+}
+
+.kanan6{
+  margin-left:40px;
+}
+  .kanan7{
+    margin-left:65px;
+  }
+  
+.kiri{
+    margin-left:18px;
+  }
