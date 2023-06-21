@@ -1,7 +1,7 @@
 {
   "name": "kyoshi-salon-frontend",
   "version": "0.1.0",
-  "homepage": "https://abduhteledata.github.io/kyoshi-salon",
+  "homepage": "https://abduhteledata.github.io/frontend",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
