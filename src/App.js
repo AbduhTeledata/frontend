@@ -17,7 +17,7 @@ import Reports from './pages/Reports';
 function App() {
   return (
     <div>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
           <main>
             <Routes>
               <Route path='/' element={<LandingPage />}/>

@@ -6,7 +6,8 @@ import App from './App';
 import "bulma/css/bulma.css";
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 axios.defaults.withCredentials = true;
 
@@ -17,9 +18,9 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <HashRouter>
+      <Router basename={process.env.PUBLI_URL}>
         <App />
-      </HashRouter>
+      </Router>
     </Provider>
   </React.StrictMode>
 );
