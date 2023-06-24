@@ -3,6 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../logo.png";
 import { useDispatch, useSelector } from "react-redux";
 import { LogOut, reset } from "../features/authSlice";
+import Button from 'react-bootstrap/Button';
 
 const Navbar = () => {
   const dispatch = useDispatch();

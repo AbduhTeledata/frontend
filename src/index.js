@@ -5,9 +5,10 @@ import { store } from './app/store';
 import App from './App';
 import "bulma/css/bulma.css";
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 // import { HashRouter } from "react-router-dom";
-import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 axios.defaults.withCredentials = true;
 
@@ -18,9 +19,9 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router basename={process.env.REACT_APP_PUBLI_URL}>
+      {/* <Router basename={process.env.REACT_APP_PUBLI_URL}> */}
         <App />
-      </Router>
+      {/* </Router> */}
     </Provider>
   </React.StrictMode>
 );

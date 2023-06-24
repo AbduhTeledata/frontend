@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { getMe } from "../features/authSlice";
 import Layout from './Layout';
 import AddToCart from '../components/AddToCart';
+// import Navbar from '../components/Navbar';
 
 const Carts = () => {
   const dispatch = useDispatch();
@@ -21,9 +22,11 @@ const Carts = () => {
   }, [isError, user, navigate]);
 
   return (
-    <Layout>
-        <AddToCart />
-    </Layout>
+      <div>
+        <Layout>
+          <AddToCart />
+        </Layout>  
+      </div>
   )
 }
 

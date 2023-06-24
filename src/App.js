@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Dashboard from './pages/Dashboard';
 import Login from './components/Login';
@@ -13,11 +13,12 @@ import Orders from './pages/Orders';
 import Carts from './pages/Carts';
 import LandingPage from './pages/LandingPage';
 import Reports from './pages/Reports';
+// import './App.css'
 
 function App() {
   return (
     <div>
-        <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+        <BrowserRouter>
           <main>
             <Routes>
               <Route path='/' element={<LandingPage />}/>
